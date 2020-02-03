@@ -13,6 +13,7 @@ dependencies:
   - click
   - cryptography 
   - mako
+  - nose
   - psycopg2
   - six
   - sqlalchemy
@@ -20,7 +21,11 @@ dependencies:
   - numpy
   - pandas
   - matplotlib
+  - Keras
+  - Keras-Applications
+  - Keras-Preprocessing
   - IPython
+  - scikit-learn
   - pip:
     - pgcontents
     - git+git://github.com/ipython-contrib/jupyter_contrib_nbextensions.git
